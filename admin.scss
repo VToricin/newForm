@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    background-color: #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: calibri;
+    font-size: 20px;
+
+}
+.mainDiv{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0px 10px rgba(68, 68, 68, 0.18);
+    background-color: white;
+    width: 1024px;
+    min-height: 80vh;
+    flex-direction: column;
+
+    
+}
+td{
+    border: 1px dotted grey;
+    width: 20%;
+}
+
+table {
+    
+    width: 1000px;
+}
+.issue {
+    width: 35%;
+}
+.close {
+    width: 5%;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+
+}
+.close:hover {
+    width: 5%;
+    background-color: rgb(255, 205, 205);
+    
+}
+.panelHeaders {
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+}

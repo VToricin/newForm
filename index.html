@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newForm</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="navBar">
+        <a href="./admin.html"><div class="divAdmin">Список заявок</div></a>
+        <div class="divNewReport"></div>
+    </div>
+    <div class="mainField">
+        <div class="formName">Форма для обратной связи</div>
+        <form action="#" method="post">
+
+            <div id="userNamePlusPhone">
+                <div>
+                    
+                    <input placeholder="Введите имя" type="text" tabindex="1" name="userName" id="userName" class="textForm">
+                </div>
+                <div>
+                    
+                    <input placeholder="Введите номер телефона" type="text" tabindex="2" name="userName" id="phoneNumber" class="textForm">
+                </div>
+            </div>
+            <div>
+                
+                <input placeholder="Ваш Email" type="text" tabindex="3" name="userName" id="userEmail" class="textForm ">
+            </div>
+            <div>
+                
+                <textarea placeholder="Опишите пожалуйста Вашу проблему" name="text" id="issueDescription" tabindex="4" cols="30" rows="10" class="textForm"></textarea>
+            </div>
+            <div id="forButtons">
+                
+                <!-- <div id="redButton" class="button">Очистить поля </div> -->
+                <div id="greenButton" class="button">Отправить </div>
+            </div>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

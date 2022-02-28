@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  background-color: #dbdbdb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+.mainDiv {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0px 10px rgba(68, 68, 68, 0.18);
+          box-shadow: 0 0px 10px rgba(68, 68, 68, 0.18);
+  background-color: white;
+  width: 1024px;
+  min-height: 80vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+td {
+  border: 1px dotted grey;
+  width: 20%;
+}
+
+table {
+  width: 1000px;
+}
+
+.issue {
+  width: 35%;
+}
+
+.close {
+  width: 5%;
+  color: red;
+  cursor: pointer;
+  text-align: center;
+}
+
+.close:hover {
+  width: 5%;
+  background-color: #ffcdcd;
+}
+
+.panelHeaders {
+  text-align: center;
+  color: grey;
+  font-size: 16px;
+}
+/*# sourceMappingURL=admin.css.map */
