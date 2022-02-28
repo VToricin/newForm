@@ -21,7 +21,7 @@ toLocalStorageData = JSON.parse(localStorage.getItem("toLocalStorageData"));
 }    
 
 
-function removeSuccessField (successInfoDiv) {
+function removeSuccessField () {
     
     greyArea.style.visibility = 'hidden';
     successInfoDiv.style.visibility = 'hidden';
@@ -43,9 +43,9 @@ let successReport = () => {
     successInfoDiv.style.visibility = 'visible';
     
     
-    greyArea.addEventListener('click', ()=>{
-        removeSuccessField(successInfoDiv);
-    })
+    setTimeout(removeSuccessField, 2000);
+        
+    
 
 }
 
