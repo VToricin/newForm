@@ -25,13 +25,14 @@ function removeSuccessField (successInfoDiv) {
     
     greyArea.style.visibility = 'hidden';
     successInfoDiv.style.visibility = 'hidden';
-    userName.value = '';
+    document.location.reload();
+    /* userName.value = '';
     phoneNumber.value = '';
     userEmail.value = '';
     issueDescription.value = '';
     userName.classList.remove('greenClass');
     phoneNumber.classList.remove('greenClass');
-    userEmail.classList.remove('greenClass');
+    userEmail.classList.remove('greenClass'); */
     
 }
 
